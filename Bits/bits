@@ -1,0 +1,76 @@
+Arrow indicates whether left or right shift .If arrow points in left its left shift.
+>>Right shift (removes x bits from last)
+  1101=11  by 2 
+  num>>x = num/(2^x) 
+
+<<Left shift (adds x 0's in last)
+  1101=110100 by 2
+  num<<x = num*(2^x)
+  
+     use to iterate over every bit 
+     eg: 
+     num&(1<<0)  num&(1<<1)   num&(1<<2)
+     1101          1101       1101  .....
+    &   1         &  10        100
+    =   1         =  00      = 100
+ 
+
+
+
+ Result of c&b is always smaller than c and b.
+  eg 3&14 =2    i.e(2<3 and 2<14)
+   In system -: 110 & 101010 = 000110 & 101010 = 000010 = 10 < 110 
+
+
+|-1  (| operator converts both to 1 if single 1 is present)
+
+~(100)= 001
+ 
+x=4&3 kahi common ki baat ho toh & operator
+
+
+
+  
+  
+  
+  
+
+bitset<32>b(s);  int k=b.to_ullong();    s=b.to_string();
+b.flip(i);    b.flip(); / flips whole
+bitset datatype is array of bool whose indexing start from right
+Everything must be in ()
+Greater the num greater the bit representation 
+1101(2) is used to denote bitset
+long long is used for both 32 and 64 bits but functions of 32 bits are used as normal int not long long 
+because ll represents 64 bits.
+cdbitset<32>b(s);
+
+
+
+
+
+bitset<32>b(s);  // size maybe anything like 9484  
+int x = 5328;
+string s= "1010011010000";
+b.flip(i);
+b.flip(); // flips whole 
+cout<<b;  // 00000000000000000001010011010000              
+int k=b.to_ullong();    s=b.to_string();
+NOTE:1) bitset is not array but its element are int. eg: int tmp=x[4]; //1
+2) ^ & | can be applied direct to bitset also
+
+
+1>0 in bits.
+  
+There are n numbers between 0 to 2^n -1  with each n bits.
+
+
+1 denotes set bit or true and 0 denotes false. 
+&(same as &&)If both conditions are true(1) then whole condition becomes true(1).
+|(same as ||)If atleast one of the condition is true(1) then whole condition becomes true(1).
+(a^b)xor ->If one of condition is true(1) and other is false(0) then whole condition becomes true i,e, gives 1.
+  eg: 3^4=100
+          110
+         =010=2
+
+  ^ of two or more number is always less the smallest number.
