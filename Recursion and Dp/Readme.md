@@ -1,3 +1,10 @@
+ALways check if(i-1)>0 so that avoid errror of grid[i][j]+ fdf
+
+
+
+
+
+
 👉Write boundry conditions i,e variable value either at starting or before calling recursion or half at starting & half before calling recursion. 
 
 eg : if(i<0 && mat[i][j]==0)return;   
