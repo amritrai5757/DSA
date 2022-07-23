@@ -1,3 +1,5 @@
+// MUST BE SIMILAR TO SUBSET COMBINATION 01 since this is subsequence question and also lCS also lcss subsequence
+
 LONGEST INCREASING SUBSEQUENCE :
 // Count of LIS asked mostly i,e if LIS is 4 then what is no of increasing subsequences with size 4. NOTE :Count of increasing subsequences never asked. So dont do it
 
