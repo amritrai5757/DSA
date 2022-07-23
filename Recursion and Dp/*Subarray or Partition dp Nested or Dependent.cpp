@@ -1,5 +1,5 @@
 https://leetcode.com/problems/restore-ip-addresses/
-
+Is it true that only dp problems can be solved using iterative 2 loops otherwise requires 2 loops
 
 // Either subarrays are :
 // 1.Nested subarrays : We need to check all subarrays along with subarrays formed by solving original subarrays .eg :Matrix chain multiplication (mcm), boolean parenthesization (ways we can solve the an array like 1^0&1|0 to get 1 : (((1^0)&1)|0) or (1^((0&1)|0) etc)
